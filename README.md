@@ -1,47 +1,40 @@
-# vuln-scanner-dashboard-demo
+# 🔍 Vuln Scanner Dashboard — Demo
 
-🔍 Vuln Scanner Dashboard — Demo | Aggregates scan results & CVSS scoring
+Dashboard that aggregates Nmap/Burp results and calculates CVSS
 
-> **Demo Showcase — Synthetic Data Only** — No personal data used.
+> **Cybersecurity Track — Demo Showcase** | **Real Problem, Synthetic Data**
 
 ## Overview
-Demo project that solves a real problem in **Cybersecurity** track. Built as a portfolio showcase with synthetic demo data.
+**Problem:** Manual vuln tracking in spreadsheets is error-prone
+
+**Solution:** Dashboard that aggregates Nmap/Burp results and calculates CVSS This demo proves the engineering approach with synthetic data.
 
 ## Architecture
 ```
-Client → Secure Gateway → Backend API → Database
-        ↓
-   Security Layer (OWASP, Validation, Rate Limit)
+Scanner (Nmap/Burp Mock) → Parser → CVSS Engine → DB → Dashboard
 ```
 
 ## Tech Stack
-- **Track:** Cybersecurity
-- See `package.json` / `requirements.txt` for full list
+- React, Node.js, CVSS 3.1
 
 ## Features
-- Solves real problem with demo data
-- Secure by design (validation, auth, RBAC where applicable)
-- Production-ready structure
+- Auto CVSS scoring\n- Trend charts\n- Export PDF report
 
 ## Security
-- Input validation
-- Authentication & Authorization (JWT/RBAC)
-- API security best practices
-- No real secrets — demo only
+- Validation, JWT/RBAC, Rate limiting, No real secrets
 
 ## Screenshots
-![Demo Screenshot](./screenshots/demo.png)
-*Placeholder — add real screenshot*
+![Demo](./screenshots/demo.png)
 
 ## Demo
-Demo data: `demo-data.json` (synthetic)
-Live Demo: `https://kero.10001mb.com/demo/vuln-scanner-dashboard-demo` (placeholder)
+- **Demo Data:** `demo-data.json`
+- **Live:** `https://kero.10001mb.com/demo/vuln-scanner-dashboard-demo` *(placeholder)*
 
 ## Installation
 ```bash
 git clone https://github.com/KeroNaderDev/vuln-scanner-dashboard-demo.git
 cd vuln-scanner-dashboard-demo
-npm install # or pip install -r requirements.txt
+npm install
 cp .env.example .env
 npm run dev
 ```
@@ -49,13 +42,12 @@ npm run dev
 ## Usage
 ```bash
 npm run dev
-# Open http://localhost:3000
 ```
 
 ## What I Learned
-- Building Cybersecurity systems end-to-end
-- Securing APIs and infrastructure
-- Demo-driven portfolio design
+- Cybersecurity end-to-end design
+- Demo vs real data separation
+- Professional portfolio structure
 
 ---
-*Part of **Kero Nader** — Cybersecurity | Full Stack | DevOps | IoT — Track: Cybersecurity*
+*Track: Cybersecurity • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
