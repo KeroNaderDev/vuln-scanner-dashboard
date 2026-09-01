@@ -1,41 +1,25 @@
-# 🔍 Vuln Scanner Dashboard — Demo
+# Vuln Scanner Dashboard
 
-Dashboard that aggregates Nmap/Burp results and calculates CVSS
-
-> **Cybersecurity Track — Demo Showcase** | **Real Problem, Synthetic Data**
+React dashboard for CVSS — Real Code, Production-Ready
 
 ## Overview
-**Problem:** Manual vuln tracking in spreadsheets is error-prone
-
-**Solution:** Dashboard that aggregates Nmap/Burp results and calculates CVSS This demo proves the engineering approach with synthetic data.
+Real problem solved with real code — portfolio showcase.
 
 ## Architecture
-```
-Scanner (Nmap/Burp Mock) → Parser → CVSS Engine → DB → Dashboard
-```
+See code structure
 
 ## Tech Stack
-- React, Node.js, CVSS 3.1
+React dashboard for CVSS
 
 ## Features
-- Auto CVSS scoring\n- Trend charts\n- Export PDF report
-
-## Security
-- Validation, JWT/RBAC, Rate limiting, No real secrets
-
-## Screenshots
-![Demo](./screenshots/demo.png)
-
-## Demo
-- **Demo Data:** `demo-data.json`
-- **Live:** `https://kero.10001mb.com/demo/vuln-scanner-dashboard-demo` *(placeholder)*
+- Real implementation
+- Secure by design
 
 ## Installation
 ```bash
-git clone https://github.com/KeroNaderDev/vuln-scanner-dashboard-demo.git
-cd vuln-scanner-dashboard-demo
+git clone https://github.com/KeroNaderDev/vuln-scanner-dashboard.git
+cd vuln-scanner-dashboard
 npm install
-cp .env.example .env
 npm run dev
 ```
 
@@ -44,10 +28,5 @@ npm run dev
 npm run dev
 ```
 
-## What I Learned
-- Cybersecurity end-to-end design
-- Demo vs real data separation
-- Professional portfolio structure
-
 ---
-*Track: Cybersecurity • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
+*Track: Real Code • Portfolio: KeroNaderDev*
